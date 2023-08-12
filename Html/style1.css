@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+
+
+img {
+    max-width: 80%;
+    max-height: 90%;
+}
+
+.Senai{
+    font-family: 'Lucida Sans Unicode';
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.menu{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+}
+
+.menu li{
+    position: center;
+    float: center;
+    border-right:1px solid #c0c0c0;
+}
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.box{
+    display: flex;
+    position: initial;  
+    top: 40%;
+    left: 40%; 
+    transform: translate(30%,2%);
+    border-radius: 15px;
+    padding: 15px;
+    width: 80%;
+}
+
+fieldset{
+    border: 2px solid darkturquoise;
+}
+
+legend{
+    border: 1px solid darkcyan;
+    padding: 10px;
+    text-align: center;
+    background-color: darkturquoise;
+}
+
